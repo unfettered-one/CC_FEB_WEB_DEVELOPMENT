@@ -1,0 +1,80 @@
+body{
+    background-color: #E3F9E4;
+    background-image: url("pngtree-abstract-background-white-and-gray-hexagon-with-diagonal-line-picture-image_1861521.jpg") ;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family:  'Times New Roman', Times, serif;
+    color: #033052;
+}
+input[type=text]{
+    width:50%;
+    font-size: 2rem;
+    height: 50px;
+    border: none;
+    background-color: #d6bcac;
+    color:black;
+    text-align: LEFT;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 300px;
+}
+.input{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: recoleta;
+    font-weight: 500;
+    color: black;
+}
+.button1{
+    padding: 12px 25px;
+    background-color: #81CFFF;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1.2234555rem;
+    color: black;
+    text-align: center;
+    font-family: recoleta;
+    font-weight: 500;
+    display: inline-block;
+}
+.button1:hover{
+    background-color: #a8755f;
+    color: #FDF6ED;
+}
+#clear{
+    padding: 12px 28px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    background-color: #d6bcac;
+    color:black;
+    margin: 0 auto;
+    display: block;
+}
+#clear:hover{
+    background-color: #d6bcac;
+    color: white;
+}
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+#result{
+    font-size: 1.7rem;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.4em;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    height: 40px;
+    font-weight: 900;
+}
